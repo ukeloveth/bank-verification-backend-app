@@ -54,9 +54,4 @@ public class UserController {
         return userService.verifyBvnForLoggedInUser(bvn);
     }
 
-//    @PostMapping("/verifyUserBvn")
-//    public ResponseEntity<Map<String, String>> verifyBvnForLoggedInUser(@RequestParam("bvn") String bvn) {
-//        log.info("This is api request {}",bvn);
-//        return userService.verifyBvnForLoggedInUser(bvn);
-//    }
 }
